@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AED768"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:title="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitleTextColor="#7F797E"
+        app:titleTextColor="#7F797E" />
+    <!--app:logo="@mipmap/ic_launcher_round"-->
+
+    <Button
+        android:id="@+id/mCameraButton"
+        android:layout_width="125dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="#AED768"
+        android:text="@string/buttonTakePhoto"
+        android:textColor="#7F797E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/mPhotoImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/mGalleryButton"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:background="#AED768"
+        android:text="@string/buttonSelectPhoto"
+        android:textColor="#7F797E"
+        app:layout_constraintBottom_toTopOf="@+id/mPhotoImageView"
+        app:layout_constraintEnd_toStartOf="@+id/mDetectButton"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toEndOf="@+id/mCameraButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/mPhotoImageView"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/descriptionImage"
+        app:layout_constraintBottom_toTopOf="@+id/mDetectButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/mDetectButton"
+        android:layout_width="86dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        android:background="#AED768"
+        android:text="@string/buttonDiagnose"
+        android:textColor="#7F797E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/mResultTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mResultTextView"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:isScrollContainer="true"
+        android:text="@string/defaultImage"
+        android:textAlignment="center"
+        android:textColor="#7F797E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="344dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="12dp"
+        android:text="Crop Identification Along With It's Health Contition"
+        android:textAlignment="center"
+        android:textColor="#7F797E"
+        app:layout_constraintBottom_toTopOf="@+id/mGalleryButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="344dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="33dp"
+        android:text="Choose Image/ Upload Image "
+        android:textAlignment="center"
+        android:textColor="#7F797E"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>

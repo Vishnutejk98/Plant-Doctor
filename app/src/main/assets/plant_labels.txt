@@ -1,0 +1,39 @@
+Detected Crop : Fruit Apple || Detect Disease : apple scab || Medicine : tnsdknnsd
+Detected Crop : Fruit Apple || Detect Disease : black rot || Medicine : Bonide Orchard Spray
+Detected Crop : Fruit Apple || Detect Disease : apple cedar or apple rust || Medicine : Spinosad
+Detected Crop : Fruit Apple || Health Status : healthy
+Detected Crop : blueberry || Health Status :healthy
+Detected Crop : cherry || Health Status : cherry including sour powdery mildew || Medicine : Monterey LG6135
+Detected Crop : cherry || Health Status : cherry including sour healthy
+Detected Crop : corn maize || Health Status : corn maize cercospora leaf spot gray leaf spot || Medicine : Bonide (BND210)
+Detected Crop : corn maize || Health Status : common rust
+Detected Crop : corn maize northern leaf || Health Status : blight
+Detected Crop : corn maize || Health Status : healthy
+Detected Crop : grape || Health Status : black rot || Medicine : Natria 706240A
+Detected Crop : grape || Health Status :esca black measles || Medicine : Southern Ag 10401
+Detected Crop : grape || Health Status :leaf blight isariopsis leaf spot || Medicine : Garden Safe HG-93179
+Detected Crop : grape || Health Status : healthy
+Detected Crop : orange || Health Status : haunglongbing citrus greening || Medicine : Spinosad
+Detected Crop : peach || Health Status : bacterial spot || Medicine : Spinosad
+Detected Crop : peach || Health Status : healthy
+Detected Crop : pepper bell || Health Status : bacterial spot || Medicine : Natria 706240A
+Detected Crop : pepper bell || Health Status : healthy
+Detected Crop : potato || Health Status : early blight || Medicine : (N-P-K 34-0-0)
+Detected Crop : potato || Health Status : late blight || Medicine : (N-P-K 34-0-0)
+Detected Crop : potato || Health Status : healthy
+Detected Crop : raspberry || Health Status :healthy
+Detected Crop : soybean || Health Status : healthy
+Detected Crop : squash || Health Status : powdery mildew
+Detected Crop : strawberry leaf scorch
+Detected Crop : strawberry || Health Status : healthy
+Detected Crop : tomato || Health Status : bacterial spot || Medicine : Jobe's Organics 09524
+Detected Crop : tomato || Health Status : early blight || Medicine : Milorganite 0636 Organic Nitrogen
+Detected Crop : tomato || Health Status : late blight || Medicine : Southern Ag – Liquid Copper Fungicide
+Detected Crop : tomato || Health Status : leaf mold || Medicine : Mancozeb Flowable with Zinc Fungicide Concentrate
+Detected Crop : tomato || Health Status : septoria leaf spot || Medicine : Bonide 811 Copper 4E Fungicide
+Detected Crop : tomato || Health Status : spider mites two spotted spider mite || Medicine : Spinosad
+Detected Crop : tomato || Health Status : target spot || Medicine : Mancozeb Flowable with Zinc Fungicide Concentrate
+Detected Crop : tomato || Health Status : tomato yellow leaf curl virus || Medicine : Jobe's Organics 09524
+Detected Crop : tomato || Health Status : tomato mosaic virus || Medicine : Spinosad
+Detected Crop : tomato || Health Status : healthy
+background - No Leaf Detected
